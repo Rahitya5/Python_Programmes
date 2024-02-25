@@ -1,0 +1,18 @@
+# Input Format
+"""1.The first line of input will contain an integer 
+T — the number of test cases. The description of T test cases follows.
+2.The first and only line of each test case contains two integers X and 
+Y, as described in the problem statement."""
+# Output Format
+"""For each test case, output on a new line A if Alice is taller than Bob, else output B. 
+The output is case insensitive, i.e, both A and a will be accepted as correct answers when Alice is taller."""
+# Constraints ---- 1≤T≤1000 & 100≤X,Y≤200 & X≠Y
+
+# Code
+
+for _ in range(int(input())):
+    A,B=map(int,input().split())
+    if A>B:
+        print('A')
+    else:
+        print('B')
