@@ -1,0 +1,9 @@
+# Constraints ---- 1≤T≤10^4 & 1≤X≤10^6
+# Code
+tcases=int(input())
+for i in range(tcases):
+    x=int(input())
+    if x>=67 and x<=45000:
+        print("YES")
+    else:
+        print("NO")
