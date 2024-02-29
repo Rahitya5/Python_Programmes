@@ -1,0 +1,8 @@
+# Constraints
+'''1≤T≤10 & 50≤Y<X≤200'''
+# Code
+t=int(input())
+for _ in range(t):
+    x,y=map(int,input().split())
+    score_win=x-y
+    print(score_win)
